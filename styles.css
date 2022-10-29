@@ -15,7 +15,7 @@ body {
     border-right: 20px solid rgb(50, 51, 5);
     border-left: 20px solid rgb(50, 51, 5);
     border-top: 20px dotted rgb(53, 71, 16);
-    border-bottom: 20px dotted rgb(39, 53, 10);
+    border-bottom: 20px dotted rgb(53, 71, 16);
     padding: 25px 35px;
 
     /* font: normel 16px 'Roboto', sans-serif; */
@@ -135,6 +135,10 @@ box {
     background: rgb(172, 150, 25);
 }
 
+.bg-inet a {
+    color: rgb(12, 13, 104);
+}
+
 .bg-opit {
     background: rgb(187, 178, 178);
 }
@@ -226,7 +230,7 @@ box {
 }
 
 .link-list a {
-    color: rgb(38, 135, 219);
+    color: rgb(38, 101, 156);
 }
 
 .link-list li {
@@ -257,13 +261,13 @@ box {
 
 .form-group input,
 .form-group textarea {
-    width: 90px;
+    width: 100px;
     box-sizing: border-box;
     border: none;
     /* background: transparent; */
     border-bottom: 2px solid grey;
     color: black;
-    padding: 10px 0 8px;
+    padding: 10px 3px 9px;
     outline: none;
     font-family: inherit;
 }
@@ -274,7 +278,7 @@ box {
 }
 
 .rov > .form-group {
-    width: 28%;
+    width: 100px;
     margin-right: 21px;
 }
 
